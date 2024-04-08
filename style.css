@@ -1,0 +1,105 @@
+body{
+	background-color: rgb(221, 221, 221);
+	color: rgb(98, 114, 84);
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+}
+
+h1,h2,h3{
+	font-family: "Roboto Slab", serif;
+}
+h1{
+    color: rgb(98, 114, 84);
+    font-weight: 600;
+    letter-spacing: 9px;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+h2{
+    color: #12372A;
+    letter-spacing: normal;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+P{
+	font-size: x-small;
+}
+a{
+	text-decoration: none;
+    color: rgb(98, 114, 84);
+    font-weight: bold;
+    font-size: x-small;
+}
+a:hover{
+	color:black;
+}
+
+
+/* Custom design with class*/
+
+.container{
+	width: 700px;
+	margin:40px auto;
+}
+
+@media (max-wideth: 760px){
+	.container {
+		width:600px;
+	}
+}
+
+@media (max-wideth: 500px){
+	.container {
+		width:400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 20%;
+}
+.btn-blue{
+	background-color: #6B72E1;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: :0px;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: black;
+}
+
+/*Design adjustments using id (1% design remaining)*/
+#introduction p{
+	margin-bottom: 40px
+}
